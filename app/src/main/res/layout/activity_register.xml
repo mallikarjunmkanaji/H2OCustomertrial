@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techkshetra.tpc1.h2ocustomer.RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Name"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_action_name"
+                        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint=" Mobile Number"
+        android:drawableLeft="@drawable/ic_action_phone"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:hint=" E-Mail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_action_pswd"
+        android:hint=" Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Confirm Password"
+        android:drawableLeft="@drawable/ic_action_pswd"/>
+    <CheckBox
+        android:id="@+id/chkid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" I have read and agree to the terms and conditions"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/createbtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Register"
+        android:textSize="20dp"
+        android:background="#3498db"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#3498db"
+        android:layout_marginTop="10dp"
+        android:text="Already have an account ?"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/lgbackbtn"/>
+
+</LinearLayout>

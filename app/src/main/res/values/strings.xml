@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">H2O Customer</string>
+    <string name="title_activity_dashboard">H2O Customer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="slider1_title">NUTRIENTS : </string>
+    <string name="slider2_title">INGRADIENTS : </string>
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techkshetra.tpc1.h2ocustomer.ForgotActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/fortool">
+    </include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fortool"
+        android:text="Verify your phone number to reset password"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:text="CODE"
+        android:gravity="center"
+        android:layout_marginRight="85dp"
+        android:layout_marginLeft="85dp"
+        android:id="@+id/codeedt" />
+
+    <Button
+        android:id="@+id/vrfybtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/codeedt"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:background="#3498db"
+        android:gravity="center"
+        android:text="Verify code"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Click resend to request for OTP again." />
+
+    <Button
+        android:id="@+id/resendbtn"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#3498db"
+        android:gravity="center"
+        android:text="resend"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
